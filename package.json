@@ -19,17 +19,24 @@
     "test": "jest",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["mcp", "datadog", "monitoring", "observability", "metrics", "logs"],
+  "keywords": [
+    "mcp",
+    "datadog",
+    "monitoring",
+    "observability",
+    "metrics",
+    "logs"
+  ],
   "author": "Hironari Kurihara",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/datadog-mcp-server.git"
+    "url": "https://github.com/kurihiro0119/datadog-mcp-server"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/datadog-mcp-server/issues"
+    "url": "https://github.com/kurihiro0119/datadog-mcp-server/issues"
   },
-  "homepage": "https://github.com/yourusername/datadog-mcp-server#readme",
+  "homepage": "https://github.com/kurihiro0119/datadog-mcp-server#readme",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^0.5.0",
     "axios": "^1.6.0",
