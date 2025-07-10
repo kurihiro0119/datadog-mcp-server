@@ -1,0 +1,36 @@
+# Source files
+src/
+*.ts
+!dist/**/*.d.ts
+
+# Development files
+.env
+.env.local
+*.log
+node_modules/
+.DS_Store
+
+# Test files
+__tests__/
+jest.config.js
+coverage/
+*.test.*
+
+# Git and config files
+.git/
+.gitignore
+.github/
+
+# TypeScript config
+tsconfig.json
+
+# Development dependencies
+.eslintrc*
+.prettierrc*
+
+# Misc
+*.map
+.vscode/
+.idea/
+*.swp
+*.swo
