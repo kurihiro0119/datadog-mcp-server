@@ -1,5 +1,5 @@
 {
-  "name": "datadog-mcp-server",
+  "name": "@kurihiro0119/datadog-mcp-server",
   "version": "0.1.0",
   "description": "MCP server for Datadog integration - Monitor metrics, logs, and APM data",
   "main": "dist/index.js",

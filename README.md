@@ -1,4 +1,4 @@
-# datadog-mcp-server
+# @kurihiro0119/datadog-mcp-server
 
 MCP (Model Context Protocol) server for Datadog integration. Monitor metrics, logs, and APM data directly from your AI applications.
 
@@ -13,7 +13,7 @@ MCP (Model Context Protocol) server for Datadog integration. Monitor metrics, lo
 ## Installation
 
 ```bash
-npm install datadog-mcp-server
+npm install @kurihiro0119/datadog-mcp-server
 ```
 
 ## Configuration
@@ -31,7 +31,7 @@ export DD_SITE="datadoghq.com"  # or datadoghq.eu, us3.datadoghq.com, etc.
 ### As a CLI tool
 
 ```bash
-npx datadog-mcp-server
+npx @kurihiro0119/datadog-mcp-server
 ```
 
 ### In your MCP client configuration
@@ -41,7 +41,7 @@ npx datadog-mcp-server
   "mcpServers": {
     "datadog": {
       "command": "npx",
-      "args": ["datadog-mcp-server"],
+      "args": ["@kurihiro0119/datadog-mcp-server"],
       "env": {
         "DD_API_KEY": "your-api-key",
         "DD_APP_KEY": "your-app-key",
